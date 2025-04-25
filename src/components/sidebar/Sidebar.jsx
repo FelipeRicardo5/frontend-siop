@@ -34,7 +34,7 @@ function Sidebar() {
           </Link>
         </li>
         <li>
-          <Link to="/gerar-laudo/:id">
+          <Link to={`/gerar-laudo/${userId}`}>
             <i className="fa-solid fa-file-invoice"></i>
             <span>Gerar Laudo</span>
           </Link>

@@ -6,6 +6,8 @@ import SearchInput from "../components/searchInput/SearchInput";
 import ButtonOnClick from "../components/buttons/ButtonOnClick";
 
 const GerarLaudo = () => {
+  const id = localStorage.getItem("id");
+
   const [dados, setDados] = useState({
     numeroCaso: '',
     dataPericia: '',
