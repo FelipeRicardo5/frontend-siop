@@ -40,7 +40,7 @@ function Sidebar() {
           </Link>
         </li>
 
-        {tipoUsuario === "admin" && (
+      
           <>
             <li>
               <Link to="/cadastrar">
@@ -49,7 +49,7 @@ function Sidebar() {
               </Link>
             </li>
           </>
-        )}
+     
 
         <li>
           <Link to="/">
